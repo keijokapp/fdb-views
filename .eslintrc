@@ -1,0 +1,25 @@
+extends: airbnb-base
+
+parserOptions:
+  ecmaVersion: 2020
+
+rules:
+  arrow-parens: ["error", "as-needed"]
+  comma-dangle: ["error", "never"]
+  consistent-return: off
+  default-case: off
+  func-names: off
+  import/extensions: ["error", "always"]
+  indent: ["error", "tab"]
+  max-classes-per-file: off
+  no-await-in-loop: off
+  no-confusing-arrow: off
+  no-multiple-empty-lines: ["error", { "max": 1, "maxEOF":  0, "maxBOF": 0 }]
+  no-param-reassign: off
+  no-plusplus: off
+  no-restricted-exports: off
+  no-restricted-syntax: off
+  no-shadow: off
+  no-tabs: ["error", { allowIndentationTabs: true }]
+  no-use-before-define: off
+  object-shorthand: ["error", "always"]
